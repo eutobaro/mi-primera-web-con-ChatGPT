@@ -1,0 +1,73 @@
+/* Resetear estilos predeterminados del navegador */
+body, h1, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo general para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Color de fondo negro para resaltar los colores neon */
+    color: #fff; /* Texto en color blanco */
+    text-align: center;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #00ff00; /* Color verde neon para el encabezado */
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para las secciones principales */
+section {
+    padding: 40px;
+}
+
+/* Estilo para las tarjetas de mascotas disponibles */
+.pet-card {
+    background-color: #ff00ff; /* Color rosa neon para las tarjetas */
+    color: #000; /* Texto en color negro para contrastar */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.pet-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.pet-card button {
+    background-color: #00ffff; /* Color azul neon para los botones */
+    color: #000; /* Texto en color negro para contrastar */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.pet-card button:hover {
+    background-color: #00ccff; /* Cambia el color al azul claro al pasar el mouse */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #ff9900; /* Color naranja neon para el pie de página */
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+
+
